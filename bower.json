@@ -19,8 +19,6 @@
     "color",
   ],
   "license": "MIT",
-  "ignore": [
-  ],
-  "dependencies": {
-  }
+  "ignore": {},
+  "dependencies": {}
 }
