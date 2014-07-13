@@ -21,3 +21,5 @@ Icon
 
 node_modules
 src
+package.json
+gulpfile.*
