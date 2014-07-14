@@ -3,8 +3,9 @@ Social Media Colors
 
 Social Media Colors with support for Stylus / LESS / SASS
 
-### Version 1.0.0
-
-#### Now include bower support
+#### bower support
+```
+bower install social-medial-colors
+```
 
 by @raulghm
