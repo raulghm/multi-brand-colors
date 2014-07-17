@@ -1,18 +1,24 @@
 {
   "name": "social-media-colors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/raulghm/social-media-colors",
   "authors": "Raúl Hernández",
-  "description": "Social Media Colors with support for Stylus / LESS / SASS",
+  "description": "Social Media Colors with support for CSS/LESS/SASS/SCSS/Stylus",
   "main": [
-    "less/social-media-colors.less",
-    "stylus/_social-media-colors.styl",
-    "sass/social-media-colors.scss"
+    "dist/css/social-media-colors.css"
+    "dist/scss/_social-media-colors.scss",
+    "dist/sass/_social-media-colors.sass",
+    "dist/styl/_social-media-colors.styl",
+    "dist/less/social-media-colors.less"
   ],
   "keywords": [
     "social media colors",
     "social color",
+    "social media",
     "networks colors",
+    "brand colors",
+    "color variable"
+    "colors variables"
     "colors",
     "color"
   ],
