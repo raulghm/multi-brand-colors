@@ -5,7 +5,7 @@
   "authors": "Raúl Hernández",
   "description": "Social Media Colors with support for CSS/LESS/SASS/SCSS/Stylus",
   "main": [
-    "dist/css/social-media-colors.css"
+    "dist/css/social-media-colors.css",
     "dist/scss/_social-media-colors.scss",
     "dist/sass/_social-media-colors.sass",
     "dist/styl/_social-media-colors.styl",
@@ -17,8 +17,8 @@
     "social media",
     "networks colors",
     "brand colors",
-    "color variable"
-    "colors variables"
+    "color variable",
+    "colors variables",
     "colors",
     "color"
   ],
