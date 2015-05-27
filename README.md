@@ -5,7 +5,7 @@ Social Media Colors with support for CSS / SCSS / SASS / Stylus / LESS
 
 #### bower support
 ```
-bower install social-medial-colors
+bower install social-media-colors
 ```
 ## Colors List
 
