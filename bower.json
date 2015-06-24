@@ -1,12 +1,4 @@
 {
   "name": "multi-brand-colors",
-  "version": "1.0.0",
-  "main": [
-    "./dist/css/index.css",
-    "./dist/postcss/index.css",
-    "./dist/scss/_index.scss",
-    "./dist/sass/_index.sass",
-    "./dist/styl/_index.styl",
-    "./dist/less/index.less"
-  ]
+  "version": "1.0.0"
 }
