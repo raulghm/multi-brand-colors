@@ -5,7 +5,7 @@ Multi Brand Colors with support for CSS/PostCSS/SCSS/SASS/Stylus/LESS
 
 #### Bower support
 ```
-bower install multi-brand-colors
+bower install --save multi-brand-colors
 ```
 
 #### NPM support
