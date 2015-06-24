@@ -26,11 +26,5 @@
     "colors",
     "color"
   ],
-  "license": "MIT",
-  "ignore": [
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+  "license": "MIT"
 }
