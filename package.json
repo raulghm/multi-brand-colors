@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git@github.com:raulghm/multi-brand-colors.git"
   },
-  "author": "raulghm",
+  "authors": "raulghm",
   "main": [
     "dist/css/index.css",
     "dist/postcss/index.css",
