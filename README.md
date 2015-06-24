@@ -35,10 +35,7 @@ npm install --save multi-brand-colors
 
 ### W3C CSS Custom Properties
 You can use with PostCSS, more info:
-
-[github.com/postcss/postcss-custom-properties](https://github.com/postcss/postcss-custom-properties)
-
-[www.w3.org/TR/css-variables](http://www.w3.org/TR/css-variables/)
+[github.com/postcss/postcss-custom-properties](https://github.com/postcss/postcss-custom-properties), [www.w3.org/TR/css-variables](http://www.w3.org/TR/css-variables/)
 ```css
 @import 'bower_components/multi-brand-colors/dist/postcss/index.css';
 
