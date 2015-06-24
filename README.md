@@ -16,7 +16,7 @@ npm install --save multi-brand-colors
 ## How use
 
 ### CSS
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,16 +34,16 @@ npm install --save multi-brand-colors
 ```
 
 ### PostCSS
-```
+```css
 @import 'bower_components/multi-brand-colors/dist/postcss/index.css';
 
 .div {
-  color: $mbc-twitter;
+  color: var(--mbc-twitter);
 }
 ```
 
 ### Scss
-```
+```scss
 @import 'bower_components/multi-brand-colors/dist/scss/index.scss';
 
 .div {
@@ -52,7 +52,7 @@ npm install --save multi-brand-colors
 ```
 
 ### Sass
-```
+```sass
 @import 'bower_components/multi-brand-colors/dist/sass/index.sass';
 
 .div {
@@ -61,7 +61,7 @@ npm install --save multi-brand-colors
 ```
 
 ### LESS
-```
+```less
 @import 'bower_components/multi-brand-colors/dist/less/index.less';
 
 .div {
@@ -70,7 +70,7 @@ npm install --save multi-brand-colors
 ```
 
 ### Stylus
-```
+```styl
 @import bower_components/multi-brand-colors/dist/stylus/index.styl
 
 .div
