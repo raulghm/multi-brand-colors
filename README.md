@@ -1,7 +1,7 @@
 Multi Brand Colors
 ===================
 
-Multi Brand Colors with support for CSS/PostCSS/SCSS/SASS/Stylus/LESS
+Multi Brand Colors with support for CSS/CSS-Vars/SCSS/SASS/Stylus/LESS
 
 #### Bower support
 ```
@@ -33,9 +33,12 @@ npm install --save multi-brand-colors
 </html>
 ```
 
-### W3C CSS Custom Properties
-You can use with PostCSS, more info:
-[github.com/postcss/postcss-custom-properties](https://github.com/postcss/postcss-custom-properties), [www.w3.org/TR/css-variables](http://www.w3.org/TR/css-variables/)
+### W3C CSS Variables
+About CSS Variables:
+[www.w3.org/TR/css-variables](http://www.w3.org/TR/css-variables/)
+
+How use with PostCSS:
+[github.com/postcss/postcss-custom-properties](https://github.com/postcss/postcss-custom-properties)
 ```css
 @import 'bower_components/multi-brand-colors/dist/postcss/index.css';
 
@@ -44,7 +47,7 @@ You can use with PostCSS, more info:
 }
 ```
 
-### Scss
+### SCSS
 ```scss
 @import 'bower_components/multi-brand-colors/dist/scss/index.scss';
 
@@ -53,7 +56,7 @@ You can use with PostCSS, more info:
 }
 ```
 
-### Sass
+### SASS
 ```sass
 @import 'bower_components/multi-brand-colors/dist/sass/index.sass';
 
