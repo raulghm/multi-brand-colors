@@ -1,9 +1,13 @@
 {
   "name": "multi-brand-colors",
   "version": "1.0.0",
-  "description": "Multi Brand Colors with support for CSS/PostCSS/SASS/SCSS/LESS/Stylus",
+  "description": "Multi Brand Colors with support for CSS/CSS-Vars/SASS/SCSS/LESS/Stylus",
   "homepage": "https://github.com/raulghm/multi-brand-colors",
-  "authors": "Raúl Hernández",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:raulghm/multi-brand-colors.git"
+  },
+  "authors": "Raul Hernandez <raulghm@gmail.com> (http://raulghm.com)",
   "main": [
     "dist/css/index.css",
     "dist/postcss/index.css",
@@ -19,5 +23,12 @@
     "brand colors",
     "colors"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
