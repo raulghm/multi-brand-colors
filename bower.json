@@ -1,9 +1,30 @@
-
 {
   "name": "multi-brand-colors",
   "version": "1.0.0",
+  "description": "Multi Brand Colors with support for CSS/PostCSS/SASS/SCSS/LESS/Stylus",
   "homepage": "https://github.com/raulghm/multi-brand-colors",
-  "authors": "raulghm",
-  "description": "Multi Brand Colors",
+  "authors": "Raúl Hernández",
+  "main": [
+    "dist/css/index.css",
+    "dist/postcss/index.css",
+    "dist/scss/_index.scss",
+    "dist/sass/_index.sass",
+    "dist/styl/_index.styl",
+    "dist/less/index.less"
+  ],
+  "keywords": [
+    "social media colors",
+    "social color",
+    "social media",
+    "networks colors",
+    "brand colors",
+    "color variable",
+    "colors variables",
+    "brands colors",
+    "brands",
+    "brand",
+    "colors",
+    "color"
+  ],
   "license": "MIT"
 }
