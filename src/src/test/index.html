@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+  <link rel="stylesheet" href="../dist/css/index.css">
+  <style>
+  	.Test-row {
+  		padding: 10px;
+  		text-transform: uppercase;
+  	}
+  	.Test-row div {
+  		padding: 10px;
+  		margin-top: 10px;
+  	}
+  </style>
+</head>
+<body>
+	<h1>Test</h1>
+	<h2><%- name %> v<%- version %></h2>
+	<hr>
+	<div class="Test">
+		<% _.forEach(colors, function(color,name) { %>
+		<div class="Test-row">
+			<span class="<%- prefix %>-<%- name %>"><%- name %></span>
+			<div class="<%- prefix %>-<%- name %>-bg"><%- name %></div>
+		</div>
+		<% }); %>	
+	</div>
+</body>
+</html>

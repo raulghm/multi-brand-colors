@@ -1,0 +1,10 @@
+<%- comments %>
+<% _.forEach(colors, function(color,name) { %>
+.<%- prefix %>-<%- name %> {
+	color: <%- color %>;
+}
+
+.<%- prefix %>-<%- name %>-bg {
+	background-color: <%- color %>;
+}
+<% }); %>
