@@ -18,14 +18,14 @@ var gulp = require('gulp'),
 		del = require('rimraf'),
 		
 		SRC = './src',
-		DEST = '../dist',
+		DEST = './dist',
 		
 		vars = {
-			name: require('../package.json').name,
-			authors: require('../package.json').authors,
-			version: require('../package.json').version,
-			homepage: require('../package.json').homepage,
-			description: require('../package.json').description,
+			name: require('./package.json').name,
+			authors: require('./package.json').authors,
+			version: require('./package.json').version,
+			homepage: require('./package.json').homepage,
+			description: require('./package.json').description,
 			colors: require(SRC + '/data/colors.json'),
 			prefix: 'mbc',
 			date: new Date()
@@ -102,7 +102,7 @@ gulp.task('list', function () {
 			return template;
 		}))
 		.pipe($.template())
-		.pipe(gulp.dest('../'));
+		.pipe(gulp.dest('./'));
 });
 
 // Test
@@ -112,10 +112,10 @@ gulp.task('test', function () {
 			return template;
 		}))
 		.pipe($.template())
-		.pipe(gulp.dest('../test'));
+		.pipe(gulp.dest('./test'));
 });
 
 // Default task
 gulp.task('default', ['clean'], function () {
-	runSequence('render', 'minifyCss', 'json', 'list', 'test');
+	runSequence('render', 'minifyCss', 'json', 'list');
 });
