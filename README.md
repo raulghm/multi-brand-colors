@@ -70,7 +70,7 @@ How use with PostCSS:
 @import 'bower_components/multi-brand-colors/dist/less/index.less';
 
 .div {
-  color: $mbc-twitter;
+  color: @mbc-twitter;
 }
 ```
 
