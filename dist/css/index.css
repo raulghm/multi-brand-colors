@@ -1,8 +1,8 @@
-/*! 
+/*!
 	multi-brand-colors 1.0.0
 	https://github.com/raulghm/multi-brand-colors
-	Licensed under the MIT license - http://opensource.org/licenses/MIT 
-	Copyright (c) 2015 Raul Hernandez 
+	Licensed under the MIT license - http://opensource.org/licenses/MIT
+	Copyright (c) 2015 Raúl Hernández
 */
 
 .mbc-4ormat {
@@ -629,6 +629,14 @@
 	background-color: #3fc380;
 }
 
+.mbc-eclass {
+	color: #cc0000;
+}
+
+.mbc-eclass-bg {
+	background-color: #cc0000;
+}
+
 .mbc-ebay {
 	color: #e53238;
 }
@@ -699,6 +707,14 @@
 
 .mbc-fab-com-bg {
 	background-color: #dd0017;
+}
+
+.mbc-fayerwayer {
+	color: #ff3300;
+}
+
+.mbc-fayerwayer-bg {
+	background-color: #ff3300;
 }
 
 .mbc-facebook {

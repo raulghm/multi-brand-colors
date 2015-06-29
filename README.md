@@ -1,7 +1,7 @@
 Multi Brand Colors
 ===================
 
-Multi Brand Colors with support for CSS/CSS-Vars/SCSS/SASS/Stylus/LESS
+Multi Brand Colors with support for CSS/CSS-Vars/SCSS/SASS/Stylus/LESS/JSON
 
 #### Bower support
 ```
@@ -24,7 +24,7 @@ npm install --save multi-brand-colors
 	<title>Document</title>
   <link rel="stylesheet" href="bower_components/multi-brand-colors/dist/css/index.css">
   <!-- min version -->
-  <link rel="stylesheet" href="bower_components/multi-brand-colors/dist/css/index.min.css">`
+  <link rel="stylesheet" href="bower_components/multi-brand-colors/dist/css/index.min.css">
 	</head>
 	<body>
 	  <span class="mbc-twitter">Lorem ipsum dolor.</span>
@@ -82,7 +82,8 @@ How use with PostCSS:
   color $mbc-twitter
 ```
 
-## List (242)
+## List (244)
+
 * 4ormat
 * 500px
 * about-me
@@ -161,6 +162,7 @@ How use with PostCSS:
 * drupal-3
 * dunked
 * dunked-2
+* eclass
 * ebay
 * ebay-2
 * ebay-3
@@ -170,6 +172,7 @@ How use with PostCSS:
 * etsy
 * evernote
 * fab-com
+* fayerwayer
 * facebook
 * firefox
 * flickr
@@ -324,4 +327,4 @@ How use with PostCSS:
 * zopim
 * bitbucket
 * strava
-* mic
+* mic 
