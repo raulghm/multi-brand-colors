@@ -58,10 +58,10 @@ How use with PostCSS:
 
 ### SASS
 ```sass
-@import 'bower_components/multi-brand-colors/dist/sass/index.sass';
+@import 'bower_components/multi-brand-colors/dist/sass/index.sass'
 
 .div {
-  color: $mbc-twitter;
+  color: $mbc-twitter
 }
 ```
 
