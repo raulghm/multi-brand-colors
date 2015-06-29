@@ -15,7 +15,7 @@
     "dist/css-vars/index.css",
     "dist/scss/_index.scss",
     "dist/sass/_index.sass",
-    "dist/styl/_index.styl",
+    "dist/stylus/index.styl",
     "dist/less/index.less",
     "dist/json/index.json"
   ],
