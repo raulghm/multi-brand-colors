@@ -7,6 +7,7 @@ Desktop.ini
 $RECYCLE.BIN/
 
 .*
+!.editorconfig
 !.gitignore
 !.htaccess
 *~
