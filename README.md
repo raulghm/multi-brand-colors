@@ -1,7 +1,7 @@
 Multi Brand Colors
 ===================
 
-Multi Brand Colors with support for CSS/CSS-Vars/SCSS/SASS/Stylus/LESS/JSON
+> Multi Brand Colors with support for CSS/CSS-Vars/SCSS/SASS/Stylus/LESS/JSON
 
 #### Bower support
 ```
