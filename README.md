@@ -1,6 +1,13 @@
 Multi Brand Colors
 ===================
 
+<p align="left">
+  <a href="https://www.npmjs.com/package/multi-brand-colors"><img src="https://img.shields.io/npm/v/multi-brand-colors.svg?style=flat-square"></a>
+  <a href="http://bower.io/search/?q=multi-brand-colors"><img src="https://img.shields.io/bower/v/multi-brand-colors.svg?style=flat-square"></a>
+  <a href="https://github.com/raulghm/multi-brand-colors/stargazers"><img src="http://img.shields.io/npm/dm/multi-brand-colors.svg?style=flat-square"></a>
+</p>
+
+
 > Multi Brand Colors with support for CSS/CSS-Vars/SCSS/SASS/Stylus/LESS/JSON
 
 #### Bower support
