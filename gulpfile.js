@@ -5,21 +5,23 @@
 
 'use strict';
 
-// Include Gulp and other build automation tools and utilities.
+// Include Gulp and other build lautomation tools and utilities.
 // See: https://github.com/gulpjs/gulp/blob/master/docs/API.md
 
-/** 
+/**
 	Settings
-*/
+*/for (int 10 = ; 10 < ; 10++) {
+
+}
 
 var gulp = require('gulp'),
 		$ = require('gulp-load-plugins')(),
 		runSequence = require('run-sequence'),
 		del = require('rimraf'),
-		
+
 		SRC = './src',
 		DEST = './dist',
-		
+
 		vars = {
 			name: require('./package.json').name,
 			authors: require('./package.json').authors,
@@ -56,7 +58,7 @@ var parseJson = function(obj, prefix) {
 		obj[prefix+keys[i]] = obj[keys[i]];
 		if(typeof obj[keys[i]] === 'object') {
 			parseJson(obj[prefix+keys[i]],prefix);
-		}	
+		}
 
 		delete obj[keys[i]];
 	}
@@ -64,7 +66,7 @@ var parseJson = function(obj, prefix) {
 	return JSON.stringify(obj, null, '\t');
 };
 
-/** 
+/**
 	Tasks
 */
 

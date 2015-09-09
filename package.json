@@ -1,6 +1,6 @@
 {
   "name": "multi-brand-colors",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Multi Brand Colors with support for CSS/CSS-Vars/SASS/SCSS/LESS/Stylus/JSON",
   "homepage": "https://github.com/raulghm/multi-brand-colors",
   "repository": {
@@ -18,6 +18,12 @@
     "dist/stylus/index.styl",
     "dist/less/index.less",
     "dist/json/index.json"
+  ],
+	"style": "index.css",
+  "files": [
+    "index.css",
+    "index.js",
+    "dist"
   ],
   "keywords": [
     "social media colors",
