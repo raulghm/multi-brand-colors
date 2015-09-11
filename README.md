@@ -47,7 +47,9 @@ About CSS Variables:
 How use with PostCSS:
 [github.com/postcss/postcss-custom-properties](https://github.com/postcss/postcss-custom-properties)
 ```css
-@import 'bower_components/multi-brand-colors/dist/postcss/index.css';
+@import 'bower_components/multi-brand-colors/dist/css-vars/index.css';
+// or
+@import 'multi-brand-colors';
 
 .div {
   color: var(--mbc-twitter);
@@ -87,4 +89,12 @@ How use with PostCSS:
 
 .div
   color $mbc-twitter
+```
+
+### JSON
+```javascript
+// simple example
+var json = require('./dist/json/index.json');
+
+console.log(json);
 ```
