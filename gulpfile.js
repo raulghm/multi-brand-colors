@@ -93,7 +93,7 @@ gulp.task('minifyCss', function () {
 
 // Render JSON
 gulp.task('json', function () {
-	$.file('index.json', parseJson(template.colors, template.prefix + '-'))
+	$.file('index.json', parseJson(template.colors))
 	.pipe(gulp.dest(DEST + '/json'));
 });
 
