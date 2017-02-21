@@ -112,6 +112,6 @@ gulp.task('test', function () {
 });
 
 // Default task
-gulp.task('default', ['clean'], function () {
+gulp.task('default', function () {
 	runSequence('render', 'minifyCss', 'json', 'list', 'test');
 });
