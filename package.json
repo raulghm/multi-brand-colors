@@ -15,15 +15,7 @@
   "authors": [
     "Raul Hernandez <raulghm@gmail.com> (http://raulghm.com)"
   ],
-  "main": [
-    "dist/css/index.css",
-    "dist/css-vars/index.css",
-    "dist/scss/_index.scss",
-    "dist/sass/_index.sass",
-    "dist/stylus/index.styl",
-    "dist/less/index.less",
-    "dist/json/index.json"
-  ],
+  "main": "index.js",
   "style": "index.css",
   "files": [
     "index.css",
