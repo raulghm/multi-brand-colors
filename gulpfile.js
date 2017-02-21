@@ -10,14 +10,11 @@
 
 /**
 	Settings
-*/for (int 10 = ; 10 < ; 10++) {
-
-}
+*/
 
 var gulp = require('gulp'),
 		$ = require('gulp-load-plugins')(),
 		runSequence = require('run-sequence'),
-		del = require('rimraf'),
 
 		SRC = './src',
 		DEST = './dist',
@@ -70,9 +67,6 @@ var parseJson = function(obj, prefix) {
 	Tasks
 */
 
-// Clean up
-gulp.task('clean', del.sync(DEST));
-
 // Render templates
 gulp.task('render', function () {
 	return gulp.src(SRC + '/templates/**/*')
@@ -86,7 +80,7 @@ gulp.task('render', function () {
 // Minify CSS
 gulp.task('minifyCss', function () {
 	return gulp.src(DEST + '/css/index.css')
-		.pipe($.minifyCss())
+		.pipe($.cssnano())
 		.pipe($.rename('index.min.css'))
 		.pipe(gulp.dest(DEST + '/css'));
 });
@@ -119,5 +113,5 @@ gulp.task('test', function () {
 
 // Default task
 gulp.task('default', ['clean'], function () {
-	runSequence('render', 'minifyCss', 'json', 'list');
+	runSequence('render', 'minifyCss', 'json', 'list', 'test');
 });
